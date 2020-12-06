@@ -37,7 +37,7 @@ body
     height: 720px
     background-image: url(../img/fog-tamara.jpg)
     background-repeat: no-repeat
-    background-size: cover
+    background-size: 107%
     background-position:  center
     
 .fog
@@ -267,6 +267,22 @@ body
             li
                 display: inline-block
                 margin-right: 30px
+    .central-line-container
+        width: 55%    
+        display: flex    
+        .line
+            height: 2px
+            padding-bottom: 42px
+            display: inline-block
+            &-left
+                width: 33%
+                border-bottom: 2px solid $yellow
+            &-right
+                width: 67%
+                border-bottom: 2px solid rgba( #ffffff, 0.3 )
+
+
+
     .colorscheme
         line-height: 90px
         font-family: 'Koh'
